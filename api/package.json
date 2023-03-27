@@ -1,0 +1,15 @@
+{
+      "name": "api",
+      "version": "1.0.0",
+      "description": "crewmeister-api",
+      "main": "index.js",
+      "scripts": {
+            "dev": "node index.js"
+      },
+      "author": "Ahmad Azizi",
+      "license": "ISC",
+      "dependencies": {
+            "date-fns": "^2.29.3",
+            "express": "^4.18.2"
+      }
+}
