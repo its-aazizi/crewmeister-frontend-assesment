@@ -2,7 +2,7 @@
       "name": "crewmeister",
       "version": "1.0.0",
       "scripts": {
-            "heroku-postbuild": "cd web && npm install && npm run build"
+            "heroku-postbuild": "cd api && npm install && npm run build"
       },
       "author": "Ahmad Azizi",
       "license": "ISC",
