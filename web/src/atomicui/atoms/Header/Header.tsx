@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 const Header: React.FC = () => {
 	return (
 		<>
-			<AppBar position="static">
+			<AppBar data-testid="header" position="static">
 				<Toolbar>
 					<Typography fontSize={{ xs: "1rem", md: "2rem" }}>Crewmeister</Typography>
 					<Box flexGrow={1} />

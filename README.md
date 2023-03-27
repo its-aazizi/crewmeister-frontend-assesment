@@ -1,4 +1,4 @@
-# crewmeister
+# Crewmeister Frontend Assesment
 
 ## Setup
 

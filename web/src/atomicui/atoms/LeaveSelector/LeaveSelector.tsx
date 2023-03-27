@@ -13,11 +13,12 @@ const LeaveSelector: React.FC<LeaveSelectorProps> = ({ leaveType, setLeaveType }
 		!value ? setLeaveType("") : setLeaveType(value as LeaveType);
 
 	return (
-		<Box>
+		<Box data-testid="leave-selector">
 			<InputLabel sx={{ fontWeight: "bold" }} id="leave-selector-label-id">
 				Leave Type
 			</InputLabel>
 			<Select
+				data-testid="leave-selector-select"
 				labelId="leave-selector-label-id"
 				value={leaveType}
 				onChange={handleChange}

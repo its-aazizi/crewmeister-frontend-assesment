@@ -4,7 +4,7 @@ import { Grid, Typography } from "@mui/material";
 
 const NotFoundPage: React.FC = () => {
 	return (
-		<Grid container>
+		<Grid data-testid="not-found-page" container>
 			<Grid item xs={12} display="flex" flexDirection="column" justifyContent="center" alignItems="center">
 				<Typography fontSize={{ xs: "2rem", md: "4rem" }} textAlign="center">
 					Error 404

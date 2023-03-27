@@ -26,7 +26,7 @@ const Table: React.FC = () => {
 
 	return (
 		<>
-			<TableContainer component={Paper}>
+			<TableContainer data-testid="table" component={Paper}>
 				<MuiTable sx={{ minWidth: 650 }} aria-label="simple table">
 					<TableHead>
 						<TableRow>

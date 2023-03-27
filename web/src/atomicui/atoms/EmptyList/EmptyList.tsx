@@ -4,7 +4,7 @@ import { Box, Typography } from "@mui/material";
 
 const EmptyList: React.FC = () => {
 	return (
-		<Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+		<Box data-testid="empty-list" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
 			<Typography
 				fontSize={{ xs: "1rem", md: "2rem" }}
 				textAlign="center"

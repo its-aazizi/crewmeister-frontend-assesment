@@ -16,7 +16,7 @@ const ErrorPage: React.FC = () => {
 	const handleReload = () => navigate(ABSENCES, { replace: true });
 
 	return (
-		<Grid container>
+		<Grid data-testid="error-page" container>
 			<Grid item xs={12} display="flex" flexDirection="column" justifyContent="center" alignItems="center">
 				<Typography
 					fontSize={{ xs: "2rem", md: "4rem" }}
