@@ -14,7 +14,7 @@
 ```
 
 ### To run tests on web
-> yarn test
+> yarn test<br/>
 > yarn coverage
 
 ## To start api
