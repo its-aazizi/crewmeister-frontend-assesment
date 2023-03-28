@@ -13,10 +13,14 @@
 4. yarn vite
 ```
 
+### To run tests on web
+> yarn test
+> yarn coverage
+
 ## To start api
 
 ```bash
 1. cd api/
-3. npm install
-4. npm run dev
+2. npm install
+3. npm run dev
 ```
